@@ -20,6 +20,7 @@ public class Exericio5 {
 
         System.out.println("Impressão com while iniciando em 1");
         i = 1; // inicializamos a variável de controle novamente.
+
         while(i <= 50) {
             System.out.println(i);
             i++; // i = i + 1; i += 1
