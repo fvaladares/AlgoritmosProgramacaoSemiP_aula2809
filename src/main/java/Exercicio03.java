@@ -4,6 +4,7 @@ public class Exercicio03 {
     public static void main(String[] args) {
         Scanner entrada = new Scanner(System.in);
         int numero;
+        int cubo;
 
         System.out.println("Programa para determinar se o número" +
                 " é positivo ou negativo");
@@ -18,8 +19,9 @@ public class Exercicio03 {
 
         } else {
             System.out.printf("O número %d é ímpar\n", numero);
+            cubo = numero * numero * numero;
             System.out.printf("%d^3 = %d",
-                    numero, numero * numero * numero);
+                    numero, cubo);
         }
     }
 }
