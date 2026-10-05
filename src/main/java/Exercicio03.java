@@ -10,10 +10,16 @@ public class Exercicio03 {
         System.out.print("Por favor, informe o número: ");
         numero = entrada.nextInt();
 
-        if(numero % 2 == 0) {
+        System.out.println("==============\n");
+        if (numero % 2 == 0) {
+            System.out.printf("O número %d é par\n", numero);
+            System.out.printf("%d^2 = %d",
+                    numero, numero * numero);
 
+        } else {
+            System.out.printf("O número %d é ímpar\n", numero);
+            System.out.printf("%d^3 = %d",
+                    numero, numero * numero * numero);
         }
-
-
     }
 }
